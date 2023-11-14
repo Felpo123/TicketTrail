@@ -24,7 +24,7 @@ const InputHeader = (props: any) => {
       onPress={() => props.searchFunction(searchText)}>
         <CustomIcon
           name="search"
-          color={COLORS.Orange}
+          color={COLORS.Blue}
           size={FONTSIZE.size_20}
         />
       </TouchableOpacity>

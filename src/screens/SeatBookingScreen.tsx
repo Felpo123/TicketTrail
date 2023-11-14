@@ -175,7 +175,7 @@ const SeatBookingScreen = ({navigation, route}: any) => {
                         style={[
                           styles.seatIcon,
                           subitem.taken ? {color: COLORS.Grey} : {},
-                          subitem.selected ? {color: COLORS.Orange} : {},
+                          subitem.selected ? {color: COLORS.Blue} : {},
                         ]}
                       />
                     </TouchableOpacity>
@@ -200,7 +200,7 @@ const SeatBookingScreen = ({navigation, route}: any) => {
           <View style={styles.radioContainer}>
             <CustomIcon
               name="radio"
-              style={[styles.radioIcon, {color: COLORS.Orange}]}
+              style={[styles.radioIcon, {color: COLORS.Blue}]}
             />
             <Text style={styles.radioText}>Seleccionado</Text>
           </View>
@@ -226,7 +226,7 @@ const SeatBookingScreen = ({navigation, route}: any) => {
                       ? {marginRight: SPACING.space_24}
                       : {},
                     index == selectedDateIndex
-                      ? {backgroundColor: COLORS.Orange}
+                      ? {backgroundColor: COLORS.Blue}
                       : {},
                   ]}>
                   <Text style={styles.dateText}>{item.date}</Text>
@@ -257,7 +257,7 @@ const SeatBookingScreen = ({navigation, route}: any) => {
                       ? {marginRight: SPACING.space_24}
                       : {},
                     index == selectedTimeIndex
-                      ? {backgroundColor: COLORS.Orange}
+                      ? {backgroundColor: COLORS.Blue}
                       : {},
                   ]}>
                   <Text style={styles.timeText}>{item}</Text>
@@ -406,7 +406,7 @@ const styles = StyleSheet.create({
     fontFamily: FONTFAMILY.poppins_semibold,
     fontSize: FONTSIZE.size_16,
     color: COLORS.White,
-    backgroundColor: COLORS.Orange,
+    backgroundColor: COLORS.Blue,
   },
 });
 

@@ -84,7 +84,7 @@ const MovieDetailsScreen = ({navigation, route}: any) => {
           />
         </View>
         <View style={styles.loadingContainer}>
-          <ActivityIndicator size={'large'} color={COLORS.Orange} />
+          <ActivityIndicator size={'large'} color={COLORS.Blue} />
         </View>
       </ScrollView>
     );
@@ -310,7 +310,7 @@ const styles = StyleSheet.create({
     borderRadius: BORDERRADIUS.radius_25 * 2,
     paddingHorizontal: SPACING.space_24,
     paddingVertical: SPACING.space_10,
-    backgroundColor: COLORS.Orange,
+    backgroundColor: COLORS.Blue,
     fontFamily: FONTFAMILY.poppins_medium,
     fontSize: FONTSIZE.size_14,
     color: COLORS.White,

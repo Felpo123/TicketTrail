@@ -32,7 +32,7 @@ const TabNavigator = () => {
               <View
                 style={[
                   styles.activeTabBackground,
-                  focused ? {backgroundColor: COLORS.Orange} : {},
+                  focused ? {backgroundColor: COLORS.Blue} : {},
                 ]}>
                 <CustomIcon
                   name="video"
@@ -54,7 +54,7 @@ const TabNavigator = () => {
               <View
                 style={[
                   styles.activeTabBackground,
-                  focused ? {backgroundColor: COLORS.Orange} : {},
+                  focused ? {backgroundColor: COLORS.Blue} : {},
                 ]}>
                 <CustomIcon
                   name="search"
@@ -76,7 +76,7 @@ const TabNavigator = () => {
               <View
                 style={[
                   styles.activeTabBackground,
-                  focused ? {backgroundColor: COLORS.Orange} : {},
+                  focused ? {backgroundColor: COLORS.Blue} : {},
                 ]}>
                 <CustomIcon
                   name="ticket"
@@ -98,7 +98,7 @@ const TabNavigator = () => {
               <View
                 style={[
                   styles.activeTabBackground,
-                  focused ? {backgroundColor: COLORS.Orange} : {},
+                  focused ? {backgroundColor: COLORS.Blue} : {},
                 ]}>
                 <CustomIcon
                   name="user"
